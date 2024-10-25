@@ -1,0 +1,13 @@
+.galeria{display: flex;gap:1rem}
+
+.galeria>div{
+    flex: 1;overflow: hidden;
+    border-radius: 1rem;
+
+}
+
+img{width: auto;transition: all .9s;}
+
+img:hover{
+    transform: scale(1.4) rotate(360deg);/**/
+}
